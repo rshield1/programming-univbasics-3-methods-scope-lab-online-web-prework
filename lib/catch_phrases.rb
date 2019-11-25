@@ -1,7 +1,6 @@
 status = 'Thank You Mario! But Our Princess Is In Another Castle!'
 
 def mario
-  status 
   puts phrase
 end
 
@@ -16,3 +15,5 @@ end
 def any_phrase(phrase)
   return phrase
 end
+
+any_phrase(phrase)
